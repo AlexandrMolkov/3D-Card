@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="control">
+            <p class="control__label">angle</p> <span class="control__count control__value-angle">count</span>
+            <input id="range-angle" class="control__range" type="range" min="0" max="75">
+
+            <p class="control__label">transition</p><span class="control__count control__value-transition">count</span>
+            <input id="range-trans" class="control__range" type="range" min="0" max="1" step="0.1">
+
+        </div>
+
+        <div class="container">
+            <div class="card" data-transition="0.1" data-deg="30">
+                <div class="card__wrapper">
+                    <img class="card__img" src="https://img5.goodfon.ru/original/800x480/9/89/zima-les-pole-sneg-derevia-nebo-solntse-luchi-oblaka-rassvet.jpg">
+                    </img>
+                    <div class="card__title">name</div>
+                    <div class="card__descr">
+                        Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Составитель жизни щеке она они то семь снова одна коварных.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
